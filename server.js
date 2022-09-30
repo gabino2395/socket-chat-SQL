@@ -11,7 +11,7 @@ const httpServer = new ServerHttp(app)
 const io = new ServerIo(httpServer)
 
 
-
+//app
 app.use(express.static('public'))
 
 app.get('/', (req, res) => {
